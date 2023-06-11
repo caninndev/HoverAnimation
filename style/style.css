@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #ccc;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: url("https://www.wallpapertip.com/wmimgs/216-2162161_pattern-desktop-wallpaper.jpg") no-repeat ;
+    background-size: cover;
+    padding: 0 50px;
+}
+.box {
+    height: 100px;
+    width: 100%;
+    border-radius: 29px;
+    text-align: center;
+    /* background-color: #110720; */
+    background-color: #fff;
+}
+h1 {
+    line-height: 100px;
+    /* color: white; */
+    color: #110720;
+}
+.item {
+    height: 85px;
+    width: 1%;
+    /* background-color: #110720; */
+    background-color: #fff;
+    transition: 2.2s all ease-in  ;
+    position: fixed;
+    top: 44.3%;
+    border-radius: 25px;
+    left: 59px;
+}
+.box:hover :last-child {
+    width: 88%;
+
+}
+/* .container .box:last-child {
+    background: #000;
+} */
